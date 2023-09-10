@@ -1,0 +1,682 @@
+/* reseting css */
+
+*{
+margin:0px;
+padding:0px;
+box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(250, 250, 247);
+}
+
+/* Navbar css code */
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border:1px solid rgb(186, 180, 180);
+    text-transform:uppercase;
+}
+
+ nav ul{
+    display: flex;
+    align-items: center;
+list-style: none;
+gap:55px
+}
+
+
+.nav_button{
+    display: flex;
+    gap:26px;
+    
+    flex-direction: row;
+}
+
+.nav_button button:first-child{
+    border:1px solid transparent;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+.nav_button button:last-child{
+    color:white;
+    text-transform: uppercase;
+    padding: 11px 15px;
+    background-color: rgb(60, 56, 56);
+    border:1px solid rgb(60, 56, 56);
+    border-radius: 4px;
+}
+
+/* Main section css starts from here */
+
+main{
+    margin-top: 50px;
+    padding:5px 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container_left{
+    width:60%;
+}
+.container_left h1{
+    text-transform: uppercase;
+    font-size:77px;
+    font-weight: 100;
+    color:rgb(75, 69, 69);
+    margin-bottom: 50px;
+   
+}
+
+.container_left h1 span{
+    color:rgb(28, 27, 27);
+    font-weight: bold;
+    
+}
+
+.main_section_line{
+    height: 3px;
+    width:280px;
+    background-color: rgb(35, 33, 33);
+    margin-bottom: 40px;
+}
+
+.container_left>p{
+    font-size:20px;
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.container_left_bottom{
+display: flex; gap:40px
+}
+
+.left_bottom_one{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+.left_bottom_one p{
+color:white;
+font-weight: bold;
+font-size:20px;
+padding:10px 20px;
+border:1px solid black;
+width: fit-content;
+    height: fit-content;
+    background-color: rgb(33, 30, 30);
+}
+
+.left_bottom_one button{
+    border: 1px solid transparent;
+    background-color: transparent;
+    width:fit-content;
+    height: fit-content;
+    font-weight: bold;
+    font-size:20px
+}
+
+.left_bottom_two{
+    display: flex;
+    gap:10px;
+}
+
+.left_bottom_two p{
+    width:100px;
+    color: rgb(68, 67, 67);
+    font-weight:60px
+}
+
+.container_right img{
+width:95%
+}
+
+.container_right{
+    position: relative;
+}
+
+.container_right_bottom{
+    
+    position: absolute;
+    right:10px;
+    display: flex;
+    align-items: center
+}
+
+.container_right_bottom img{
+    width:150px; margin-right: 10px;
+}
+
+.container_right_bottom button{
+    height:28px;
+    width:50px;
+    border-radius: 24px;
+}
+
+.container_right_bottom button span:first-child{
+    border-right: 1px solid black;
+}
+
+/* Main bottom section CSS starts from here */
+
+.main_bottom{
+    margin-top: 100px;
+    padding: 50px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:rgb(46, 45, 45)
+}
+
+.weight{
+    border:1px solid teal;
+    padding:15px 25px;
+    box-shadow: 0px 0px 2px green;
+}
+
+.weight h1{
+    padding-bottom: 6px;
+     font-size:30px;
+}
+
+.weight p{
+    font-size:12px;
+    text-align: center;
+}
+
+.speed{
+    border:1px solid teal;
+    padding:15px 25px;
+    box-shadow: 0px 0px 2px green;
+}
+
+.speed h1{
+    padding-bottom: 6px;
+ font-size:30px;
+}
+
+.speed p{
+    font-size:12px;
+    text-align: center;}
+
+.range{
+    border:1px solid teal;
+    padding:15px 25px;
+    box-shadow: 0px 0px 2px green;
+}
+
+.range h1{
+    padding-bottom: 6px;
+     font-size:30px;
+}
+
+.range p{
+    font-size:12px;
+    text-align: center;
+}
+
+.torque{
+    border:1px solid teal;
+    padding:15px 25px;
+    box-shadow: 0px 0px 2px green;
+}
+
+.torque h1{
+    padding-bottom: 6px;
+     font-size:30px;
+}
+
+.torque p{
+    font-size:12px;
+    text-align: center;
+}
+
+.climbing{
+    border:1px solid teal;
+    padding:15px 25px;
+box-shadow: 0px 0px 2px green;
+}
+
+.climbing h1{
+    padding-bottom: 6px;
+     font-size:30px;
+}
+
+.climbing p{
+    font-size:12px;
+    text-align: center;
+}
+
+.brakes{
+    border:1px solid teal;
+    padding:15px 25px;
+    box-shadow: 0px 0px 2px green;
+}
+
+.brakes h1{
+    padding-bottom: 6px;
+     text-align: center;
+     font-size:30px;
+}
+
+.brakes p{
+    font-size:12px;
+   
+}
+
+ /* Product information CSS code starts from here  */
+
+ .product_info{
+    color:rgb(47, 46, 46);
+    
+    padding: 40px  40px;
+    
+ }
+
+ .product_info h1{
+padding-bottom:20px;
+font-size: 50px;
+text-align: center;
+ }
+
+ .product_info>p{
+padding-bottom:20px;
+font-size: 20px;
+text-align: center;
+ }
+
+ .Product_info_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .product_image {
+width:40%;
+ }
+
+ .product_features p{
+    padding-bottom:5px;
+ }
+
+ /* High efficiency section starts from here */
+
+ .High_efficiency img {
+    width:96%;
+ }
+
+ /* Multiple accessories section starts from here */
+
+ .multiple_accessories{
+    padding-top:40px;
+    text-align: center;
+    color: rgb(47, 46, 46);
+ }
+
+ .multiple_accessories h1{
+    padding-bottom: 20px;
+        font-size: 45px;
+ }
+
+ .multiple_accessories p{
+    font-size:20px;
+    padding-bottom: 40px;
+ }
+
+ .product_features div {
+    display: flex;
+    align-items: center;
+    gap:10px;
+    padding-bottom: 10px;
+}
+
+.accessories{
+    display:flex;
+    align-items: center;
+    padding:30px 40px;
+}
+
+.accessories_1 div{
+    display:flex;
+    align-items: center;
+    padding-bottom: 10px;
+    gap:15px;
+}
+
+.accessories_1 h1{
+    font-size:45px;
+        color: rgb(47, 46, 46);
+        padding-bottom: 30px;
+}
+
+.accessories_1 p{
+    color: rgb(47, 46, 46);
+        font-size: 20px;
+        
+}
+
+/* Shopping section starts from here  */
+
+.shopping_rack{
+    padding-right: 30px;
+    display: flex;
+    gap:50px;
+}
+
+.shopping_rack_right h1{
+    font-size: 45px;
+        color: rgb(47, 46, 46);
+        padding-bottom: 30px;
+}
+
+.shopping_rack_right div {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    gap: 15px;
+}
+
+.shopping_rack_right p{
+    color: rgb(47, 46, 46);
+    font-size: 20px;
+}
+
+/* More accessories section */
+
+.more_accessories{
+    text-align: center;
+    margin-top: 20px;
+    color:rgb(47, 46, 46);
+}
+
+.more_accessories h1{
+    border:1px solid rgb(47, 46, 46);
+    text-align: center;
+    padding:20px 40px;
+    margin-top: 20px;
+    width:fit-content;
+    margin: auto;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+
+.gallery h1{
+color:rgb(47, 46, 46);
+font-size: 48px;
+padding-bottom: 30px;
+margin: auto;
+text-align: center;
+}
+
+.gallery p{
+    color: rgb(47, 46, 46);
+    font-size: 18px;
+    margin: auto;
+        text-align: center;
+        padding-bottom: 60px;
+}
+
+/* gallery section CSS code starts from here */
+
+.gallery_section {
+    display: flex;
+    align-items: center;
+    gap:50px;
+    padding:10px 40px;
+}
+
+.gallery_leftSide img{
+    width:600px;
+    padding-bottom: 50px;
+}
+
+.gallery_rightSide img{
+    width: 550px;
+    padding-bottom: 50px;
+}
+
+.gallery_parts p{
+border:1.5px solid rgb(68, 64, 64);
+margin-bottom: 30px;
+width:450px;
+padding:23px 50px;text-align: center;
+font-weight: bold;
+font-size:23px;
+color:rgb(68, 64, 64);
+border-radius: 10px;
+}
+
+.colors{
+    text-align: center;
+    color:rgb(51, 51, 51);
+
+}
+
+.colors h1{
+    font-size:47px;
+    padding-bottom: 30px;
+}
+
+.colors p{
+        font-size: 20px;
+            padding-bottom: 50px;
+}
+
+/* checkout color section code */
+
+.checkout_colors{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.checkout_colors img{
+    width:900px
+}
+
+.available_colors{
+    display: flex;
+    
+}
+
+.available_colors img{
+    width:25%;
+}
+
+/* Testimonials section css */
+
+.testimonials{
+    color: rgb(78, 75, 75);
+    padding:30px 80px
+}
+
+.testimonials>h1{
+    font-size: 47px;
+        padding-bottom: 30px;
+        text-align: center;
+        padding-bottom:50px;
+}
+
+.cards{
+    display: flex;
+    gap:34px;
+
+}
+
+.cards>div {
+    border:1.5px solid gray;
+    text-align: center;
+    padding:30px 22px;
+    border-radius: 4px;
+}
+
+.cards div h1{
+    color:rgb(187, 93, 59);
+    padding-bottom: 10px;
+}
+
+.card_1{
+    box-shadow: 0px 0px 3px gray;
+}
+
+.card_1 p{
+font-size: 20px;
+}
+
+.card_2 p {
+    font-size: 20px;
+}
+
+.card_3 p {
+    font-size: 20px;
+}
+
+.CEO_1{
+    display: flex;
+    gap:15px;
+    width:fit-content;
+    margin:auto;
+    padding-top: 30px;
+}
+
+.CEO_2 {
+    display: flex;
+    gap: 15px;
+    width: fit-content;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.CEO_3 {
+    display: flex;
+    gap: 20px;
+    width: fit-content;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.testimonials_button{
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 50px;
+
+}
+
+.testimonials_button button{
+    font-size: 26px;
+    margin:5px 10px;
+    padding:5px 7px;
+    border-radius: 50%;
+    border:1px solid gray
+}
+
+.testimonials_button button:last-child{
+color: white;
+background-color: rgb(78, 75, 75);
+}
+
+ /* Subscribe to Newsletter section CSS code */
+
+ .Subscribe_to_newsletter{
+    text-align: center;
+    margin-top:30px;
+    color:rgb(66, 66, 66)
+ }
+
+ .Subscribe_to_newsletter h1{
+    font-size:40px;
+    padding-bottom: 15px;
+ }
+
+.subscribe_bottom{
+    padding: 30px ;
+}
+
+.subscribe_bottom input{
+    padding:15px 30px;
+    margin-right: 10px;
+    border:1px solid gray;
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px gray;
+}
+
+.subscribe_bottom button{
+padding: 15px 40px;
+color:white;
+background-color: rgb(54, 53, 53);
+border: 1px solid gray;
+    border-radius: 4px;
+}
+
+/* Footer section starts from here */
+
+footer{
+    background-color: rgb(54, 53, 53);
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    position:relative;
+padding:20px 0px;
+
+
+}
+
+footer img {
+position:absolute;
+bottom:0px;
+width:490px;
+}
+
+
+
+.footer_rightSide{
+   
+        padding-right: 50px;
+        width:100%;
+        display: flex;
+            align-self: flex-end;
+            gap: 90px;
+            justify-content: flex-end;
+}
+
+.footer_rightSide ul{
+    list-style: none;
+}
+
+.footer_rightSide ul li:first-child{
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.footer_rightSide ul li{
+    padding-bottom:30px
+}
+
+.Legals li:last-child{
+    display: flex;
+    gap:10px;
+
+}
+
+.Legals li i{
+    margin-top: 40px;
+    border:1px solid white;
+    padding:10px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+footer>p{
+    text-align: center;
+
+}
+
